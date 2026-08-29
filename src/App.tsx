@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import type { TemplateModel, ViewportType, ViewportScope, EditCommand, AIProposalResult, AIProposalItem } from './types/template';
 import { baselineTemplate } from './data/baselineTemplate';
 import { applyEditCommand } from './utils/editPipeline';

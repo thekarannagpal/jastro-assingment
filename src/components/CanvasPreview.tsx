@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import type { TemplateModel, ViewportType } from '../types/template';
 import { TemplateRenderer } from './TemplateRenderer';
-import { MousePointer, CheckSquare, Layers } from 'lucide-react';
+import { CheckSquare } from 'lucide-react';
 
 interface CanvasPreviewProps {
   template: TemplateModel;

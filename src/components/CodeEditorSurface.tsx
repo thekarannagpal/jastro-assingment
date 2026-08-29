@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import type { TemplateModel, ViewportScope, EditCommand } from '../types/template';
+import type { TemplateModel, ViewportScope } from '../types/template';
 import { Code, CheckCircle, AlertTriangle, Copy, X, FileJson, FileCode, Braces } from 'lucide-react';
 
 interface CodeEditorSurfaceProps {
@@ -13,7 +13,7 @@ interface CodeEditorSurfaceProps {
 export const CodeEditorSurface: React.FC<CodeEditorSurfaceProps> = ({
   template,
   selectedIds,
-  activeScope,
+  activeScope: _activeScope,
   onApplyCodeEdit,
   onClose,
 }) => {

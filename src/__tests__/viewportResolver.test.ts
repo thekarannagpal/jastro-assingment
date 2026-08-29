@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { baselineTemplate } from '../data/baselineTemplate';
 import { resolveElementForViewport } from '../utils/viewportResolver';
 import { applyEditCommand } from '../utils/editPipeline';
-import { EditCommand } from '../types/template';
+import type { EditCommand } from '../types/template';
 
 describe('Viewport Override Resolver & View Isolation', () => {
   it('resolves base properties when no overrides exist', () => {

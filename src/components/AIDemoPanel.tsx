@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import type { ViewportScope, TemplateModel, AIProposalResult } from '../types/template';
 import { PRESET_DEMO_PROMPTS, runAIDemoScenario } from '../utils/aiDemoEngine';
-import type { ScenarioExample } from '../utils/aiDemoEngine';
-import { Sparkles, Play, ShieldAlert, CheckCircle, ArrowRight, CornerDownLeft, Sparkle } from 'lucide-react';
+import { Sparkles, ShieldAlert, CheckCircle, Sparkle } from 'lucide-react';
 
 interface AIDemoPanelProps {
   template: TemplateModel;

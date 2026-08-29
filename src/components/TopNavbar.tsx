@@ -1,6 +1,6 @@
 import React from 'react';
 import type { ViewportType, ViewportScope } from '../types/template';
-import { Monitor, Tablet, Smartphone, RotateCcw, Sparkles, Layers, Code, CheckCircle2, ShieldCheck, Eye } from 'lucide-react';
+import { Monitor, Tablet, Smartphone, RotateCcw, Sparkles, Layers, Code, CheckCircle2, Eye } from 'lucide-react';
 
 interface TopNavbarProps {
   activeViewport: ViewportType;
@@ -30,7 +30,7 @@ export const TopNavbar: React.FC<TopNavbarProps> = ({
   showMultiView,
   setShowMultiView,
   onResetTemplate,
-  selectedCount,
+  selectedCount: _selectedCount,
   lastPersistedTime,
 }) => {
   return (

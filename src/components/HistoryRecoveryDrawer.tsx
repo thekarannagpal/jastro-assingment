@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import type { TemplateModel, ViewportScope, ElementHistoryEntry } from '../types/template';
 import { restoreElementToHistoryEntry } from '../utils/historyManager';
-import { RotateCcw, X, History, Layers, CheckCircle2, Calendar, ShieldCheck } from 'lucide-react';
+import { RotateCcw, X, History, CheckCircle2, Calendar } from 'lucide-react';
 
 interface HistoryRecoveryDrawerProps {
   template: TemplateModel;

@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { baselineTemplate } from '../data/baselineTemplate';
 import { validateEditCommand, applyEditCommand } from '../utils/editPipeline';
-import { EditCommand } from '../types/template';
+import type { EditCommand } from '../types/template';
 
 describe('Edit Pipeline Validation & Execution', () => {
   it('rejects commands with unknown target IDs', () => {

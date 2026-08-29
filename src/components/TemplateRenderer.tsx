@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import type { TemplateModel, ViewportType, TemplateElement } from '../types/template';
+import type { TemplateModel, ViewportType } from '../types/template';
 import { resolveElementForViewport } from '../utils/viewportResolver';
-import { Sparkles, Layers, Cpu, RotateCcw } from 'lucide-react';
+import { Layers } from 'lucide-react';
 
 interface TemplateRendererProps {
   template: TemplateModel;

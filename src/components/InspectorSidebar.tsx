@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import type { TemplateModel, ViewportScope, ViewportType, TemplateElement, EditCommand } from '../types/template';
+import type { TemplateModel, ViewportScope, ViewportType, EditCommand } from '../types/template';
 import { resolveElementForViewport } from '../utils/viewportResolver';
-import { Sliders, Layers, Eye, History, ChevronRight, ChevronDown, AlignLeft, AlignCenter, AlignRight, Palette } from 'lucide-react';
+import { Sliders, Layers, Eye, History, ChevronRight, ChevronDown, AlignLeft, AlignCenter, AlignRight } from 'lucide-react';
 
 interface InspectorSidebarProps {
   template: TemplateModel;

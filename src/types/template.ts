@@ -10,6 +10,10 @@ export interface ElementStyle {
   padding?: string;
   margin?: string;
   border?: string;
+  borderTop?: string;
+  borderBottom?: string;
+  borderLeft?: string;
+  borderRight?: string;
   borderRadius?: string;
   boxShadow?: string;
   opacity?: string;
@@ -35,6 +39,11 @@ export interface ElementLayout {
   position?: 'static' | 'relative' | 'absolute';
   top?: string;
   left?: string;
+  flexDirection?: 'row' | 'column' | 'row-reverse' | 'column-reverse';
+  gridTemplateColumns?: string;
+  gap?: string;
+  justifyContent?: string;
+  alignItems?: string;
 }
 
 export interface ElementContent {
